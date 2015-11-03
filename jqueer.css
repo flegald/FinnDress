@@ -1,0 +1,67 @@
+body {
+	background-image: url('img/back.jpg') ;
+}
+
+#head {
+	text-align: center;
+	background-color: #B0C4DE;
+	font-size: 24px;
+	opacity: 0.8;
+}
+
+div#finn {
+	background-color: white;
+	width: 550px;
+	display: inline-block;
+	border: 3px solid black;
+	margin-left: 100px;
+}
+
+div#clothes {
+	background-color: #B0C4DE;
+	width:600px;
+	display: inline-block;
+	margin-bottom: 150px;
+	border: 3px solid black;
+}
+
+ul {
+	text-align: center;
+	background-color: #B0C4DE;
+	height: 25px;
+	padding-top: 8px;
+	opacity: 0.8;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+}
+
+h4 {
+	background-color: #B0C4DE;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#buttons {
+	background-color: #B0C4DE;
+	text-align: center;
+	margin-top: -135px;
+	height: 120px;
+	border: 3px solid black;
+}
+
+button {
+	height: 50px;
+	padding: 20px;
+	opacity: 1.0;
+	border-radius: 15%;
+	background-color: black;
+	color: white;
+}
+
+button:hover {
+	background-color: red;
+}
