@@ -31,3 +31,30 @@ $(document).ready(function(){
 		$('#finn').css('background-image', 'url(img/mario.png)');
 	});
 });	
+
+$(document).ready(function(){
+	$('#rain').click(function(){
+		$('#corn').removeClass('hidden');
+		$('#corn').animate({right: '-200px'});
+	});
+});
+
+$(document).keydown(function(e){
+	switch(e.which) {
+		case 37: $('#corn').animate({left: '-=10px'})
+		break;
+
+		case 38: $('#corn').animate({top: '-=10px'})
+		break;
+
+		case 39: $('#corn').animate({right: '-=10px'})
+		break;
+
+		case 40:$('#corn').animate({bottom: '-=10px'})
+		break;
+
+		default: return;
+	};
+
+		e.preventDefault();
+});
